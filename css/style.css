@@ -127,24 +127,37 @@ button{
 .content{
     background-color: #F7FBDA;
     margin: 0px;
-    padding:0 15px;
-    
+    padding:0 0;
+    width: 445px;
     height: 140px;
 }
 .article{
     margin: 0px;
     line-height: 1.33;
     padding-top: 10px;
+    padding-left: 15px;
     padding-bottom:16px;
     font: 12px 'ArialMT Regular';
     color: #7D7D7D;
 }
 .email_phone{
     /* margin-top: 16px; */
+    margin:0;
+    padding-left: 15px;
     border-top: 1px solid #7D7D7D;
-    line-height: 0.83;
+    line-height: 12;
     font: 12px 'ArialMT Regular';
     color: #7D7D7D;
+}
+#email{
+    margin: 0;
+    margin-top: 16px;
+    padding:0;
+}
+#phone{
+    margin: 0;
+    margin-top:1.83pt;
+    padding:0;
 }
 footer{
     background-color: #778A50;
