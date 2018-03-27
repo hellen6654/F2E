@@ -127,14 +127,14 @@ button{
 .content{
     background-color: #F7FBDA;
     margin: 0px;
-    padding-left: 15px;
-    width: 445px;
+    padding:0 15px;
+    
     height: 140px;
 }
 .article{
     margin: 0px;
     line-height: 1.33;
-    padding-top:16px;
+    padding-top: 10px;
     padding-bottom:16px;
     font: 12px 'ArialMT Regular';
     color: #7D7D7D;
@@ -142,7 +142,7 @@ button{
 .email_phone{
     /* margin-top: 16px; */
     border-top: 1px solid #7D7D7D;
-    line-height: 1.83;
+    line-height: 0.83;
     font: 12px 'ArialMT Regular';
     color: #7D7D7D;
 }
