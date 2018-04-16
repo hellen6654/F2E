@@ -1,212 +1,170 @@
-*{
-    /* background-color: #000000; */
-    max-width: 1280px;
-    margin: 0px auto;
+body{
+    background-color: #EDF2C5;
+    margin: 0px;
+    padding: 0px;
 }
-.clear::after{
+.clear:after {
     content: "";
     display: block;
     clear: both;
 }
-ul{
-    list-style: none;  
-}
-/*header*/
-header{
-    color: #eeeeee;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 82px 20px 81px;
-    min-width: 1280px;
-}
-header img{
-    margin: 0px 0px;
-}
-header nav.top_nav{
-    margin: 0px 0px;
-}
-header ul{
-    display: flex;
-}
-header li{
-    padding: 0px 20px; 
-}
-div.middle{
-    display: flex;
-}
-/*aside*/
-aside{
-    flex: 1;
-    background-color: #073763;
-}
-aside p{
-    padding-left:30px; 
-    margin: 0 0;
-}
-aside a{
-    text-decoration: none;
-    color: #2b78e4;
-}
-aside ul{
-    margin: 0 0;
-    
-}
-aside div.giftcard,aside div.recommond, aside div.stack,aside div.seekind 
-,aside div.seetype ,aside div.looked{
-    margin-top: 20px;
-}
-/*section main*/
-section.main{
-    flex:2;
-    background-color: #073763; 
-}
-section nav.secondnav{
-    display: flex;
-    background-color: #597eaa;
-    margin: 10px 10px;
-}
-section nav.secondnav div{
-    display: flex;
-    margin: 0 0;
-    padding:0 200px ;
-}
-section nav.secondnav ul{
-    display: flex;
-    margin: 20px 50px;
-}
-section nav.secondnav li{
-    padding-left: 20px;
-}
-section nav.secondnav input{
-    margin: 20px 20px;
-}
-section.main div h1{
-    background-color: #073763;
-    margin: 0 0;
-    padding: 10px 30px;
-    padding-bottom: 0px; 
-    color: #000000;
-    margin: 10px auto 10px auto;
-}
-section .GTA5{
-    display: flex;
-    flex-direction: row;
-    height: 600px;
-    padding-left:30px; 
-}
-section div.GTA5 img.big{
-    padding: 10px 0px;
-}
-section .GTA5 div.right{
-    padding-left: 20px;
-    margin-left: 10px;
-    margin-right: 29px;
-    background-color: grey;
-}
-section div.GTA5 p.title{
-    padding-top: 10px;
-    font-size: 30px;
-    color: #eeeeee;
-}
-section div.GTA5 div.imgg{
-    margin-top: 20px;
-}
-section div.GTA5 div.word{
-    margin-top: 20px;
-}
-section div.GTA5 div.word p.push{
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-section div.GTA5 div.word p.hot{
-    padding-left:10px; 
-}
-section div.GTA5 div.word p.price{
-    margin-top: 50px;
-    color: #9fc5f8;
-}
-/*section special*/
-section h1.sptitle{
-    background-color: #073763;
-    margin: 0 0;
-    padding: 10px 30px;
-    padding-bottom: 0px; 
-    color: #000000;
-}
-section .special{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #073763;
-    margin: 0 0;
-}
-section .cod{
-    margin: 0px 30px;
-
-    background-size:contain; 
-}
-section .farcry{
-    margin: 0 30px;
-}
-section .special .two{
-    margin-top:0px;
-    margin-bottom:30px;
-    margin-right:30px; 
-}
-section .special .two img{
-    padding-top:20px; 
-}
-/* section login */
-section.login{
-    margin: 0px 0px;
-    min-width: 1280px;
-    padding-bottom:20px;
-    padding-top: 30px; 
-    padding-left: 82px; 
-    padding-right: 81px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #000000;
-    color: #eeeeee;
-}
-section.login h1,p,button{
-    margin: 5px 0px;
-    
-}
-section.login hr{
-    width:200px; 
-    border: 1px solid #9fc5f8;
-}
-section.login h1{
-    color: #9fc5f8;
-}
-section.login button{
-    background-color: #93c47d;
-    border: none;
-    width: 100px;
-    height: 30px;
-    font-weight: bold;
-    
-}
-/*footer*/
-footer{
-    margin: 0px auto; 
-    padding: 80px 81px 80px 82px;
-    padding-top:30px;  
-    background-color: #073763;
-    min-width: 1280px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-footer img{
+.container{
+    position: relative;
+    width: 1260px;
+    padding: 0px 160px;
     margin: auto;
+    box-sizing: border-box; 
 }
-footer p{
-    color: #ffffff;
-    font-size: 0.5em ;
+.title{
+    margin-top: 53px;
+    height: 42px;
+    width: 271px;
+    font:36px 'Arial black';
+    color:#778A50;
+    float: left;
+    margin-bottom: 0px;
 }
+.right{
+    float: right;
+    margin-top: 70px;
+    padding-top:2px;
+    margin-bottom: 3px;
+} 
+.right img, .btn{
+    /* display: inline-block; */
+    float: left;
+}
+.right img{
+    margin-right: 10px;
+}
+button{
+    margin-left: 10px;
+    /*padding: 3px 8px; */
+    font:14px 'Arial BoldMT';
+    color:#778A50;
+    border: 1px solid #778A50;
+    border-radius:3px;  
+    background-color: #EDF2C5;
+    
+}
+.right .login{
+    border-left: 1px solid #778A50; 
+}
+.list{ 
+   width: 940px;
+   box-sizing: border-box;
+   margin-left:auto;
+   margin-right: auto;
+   margin-top:10px;
+}
+.list ul{ 
+    background-color: #778A50;
+    margin: 0;
+    padding:0;
+    
+}
+.list ul li{
+    list-style: none;
+    float: left;
+}
+.list a{
+    text-decoration: none;
+    display: block;
+    color: #EDF2C5;
+    margin: 0;
+    padding: 16px 30px;
+    font: 16px 'Arial Black';
+}
+.img_pumpkin{
+    width: 940px;
+    margin: 20px auto 30px auto;
+}
+.vegetable_contact{
+    width: 940px;
+    margin-left:auto; 
+    margin-right: auto;
 
+}
+.vegetable, .contact{
+    width: 445px;
+    float: left;
+    box-sizing: border-box;
+}
+.vegetable_title, .contact_title{
+    background-color: #778A50;
+    border-radius: 3px;
+    font-family: 'Arial Black';
+    font-size: 16px;
+    color: #EDF2C5; 
+    margin-top:0; 
+}
+.contact_title{
+    padding-top:17px;
+    padding-left: 30px;
+    padding-bottom: 16px; 
+}
+.vegetable_title{
+    padding-top:15px;
+    padding-left:30px;
+    padding-bottom: 15px; 
+    
+}
+.vegetable{
+    margin-right:25px;
+}
+.contact{
+    margin-left: 25px;
+    padding-bottom: 0;
+}
+#carrot{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.vegetable_pic figure{
+    margin: 0;
+    float: left;
+}
+.content{
+    background-color: #F7FBDA;
+    margin: 0px;
+    padding:0 0;
+    width: 445px;
+    height: 140px;
+}
+.article{
+    margin: 0px;
+    line-height: 1.33;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom:16px;
+    font: 12px 'ArialMT Regular';
+    color: #7D7D7D;
+}
+.email_phone{
+    /* margin-top: 16px; */
+    margin:0;
+    padding-left: 15px;
+    border-top: 1px solid #7D7D7D;
+    line-height: 12;
+    font: 12px 'ArialMT Regular';
+    color: #7D7D7D;
+}
+#email{
+    margin: 0;
+    margin-top: 16px;
+    padding:0;
+}
+#phone{
+    margin: 0;
+    margin-top:1.83pt;
+    padding:0;
+}
+footer{
+    background-color: #778A50;
+    font: 12px 'ArialMT Regular'  ;
+    font-weight: bold;
+    color:#EDF2C5;
+    padding: 24px 479px 25px 479px;
+    text-align: center;
+    margin-top: 35px; 
+}
